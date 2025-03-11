@@ -30,7 +30,7 @@ def fetch_and_produce():
         else:
             print(f"API request failed: {response.status_code}")
 
-        time.sleep(20)  # 15 minutes
+        time.sleep(900)  # 15 minutes
 
 if __name__ == "__main__":
     fetch_and_produce()
